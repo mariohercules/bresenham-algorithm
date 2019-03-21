@@ -10,7 +10,7 @@ public class Main {
 
 		System.out.println("Bresenham Line Algorithm");
 
-		System.out.println("\nEntre com as dimensao da grade:");
+		System.out.println("\nEnter dimension grid:");
 		int linhas = scan.nextInt();
 		int colunas = scan.nextInt();
 
@@ -20,7 +20,7 @@ public class Main {
 			for (int j = 0; j < colunas; j++)
 				grid[i][j] = new Point(i, j);
 
-		System.out.println("\nEntre com as coordenadas do ponto 1 e ponto 2");
+		System.out.println("\nEnter coordinates (x,y) and (x,y)");
 		int x0 = scan.nextInt();
 		int y0 = scan.nextInt();
 		int xf = scan.nextInt();
