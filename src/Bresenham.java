@@ -46,9 +46,9 @@ public class Bresenham {
 		for (int i = 0; i < linhas; i++) {
 			for (int j = 0; j < colunas; j++) {
 				if (linha.contains(grade[i][j]))					
-					System.out.print("[ (" + i + "," + j + ") ]");
+					System.out.print("(" + i + "," + j + ")");
 				else					
-					System.out.print("[        ]");
+					System.out.print("");
 			}
 			System.out.println();
 		}
