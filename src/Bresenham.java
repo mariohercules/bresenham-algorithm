@@ -53,5 +53,4 @@ public class Bresenham {
 			System.out.println();
 		}
 	}
-
 }
